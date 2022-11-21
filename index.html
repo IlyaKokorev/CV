@@ -26,9 +26,8 @@
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: kockorev.ilya@gmail.com">kockorev.ilya@gmail.com</a></li>
-                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:+79522223072">+7-952-222-30-72</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://github.com/IlyaKokorev" target="_blank">github.com/IlyKokorev</a></li>
-                    <li class="telegram"><i class="fa fa-paper-plane"></i><a href="https://t.me/Ilyakokorev" target="_blank">@IlyaKokorev</a></li>
+                    <li class="telegram"><i class="fa fa-paper-plane"></i><a href="https://t.me/Ilyakokorev" target="_blank">@iskokorev</a></li>
                     <li class="skype"><i class="fa fa-skype"></i><a href="https://join.skype.com/invite/kFx6FkFV56F3" target="_blank">Илья Кокорев</a></li>
                 </ul>
             </div><!--//contact-container-->
@@ -50,7 +49,7 @@
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Языки</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Pre-Intermediate)</span></li>
+                    <li>English <span class="lang-desc">(Intermediate)</span></li>
                     <li><span class="lang-desc">(Активно учу)</span></li>
                 </ul>
             </div><!--//interests-->
@@ -61,6 +60,8 @@
                     <li>LEGO</li>
                     <li>Велоспорт</li>
                     <li>Готовить разную вкуснятину</li>
+                    <li>Террариумоводство</li>
+                    <li>Эублефары</li>
                 </ul>
             </div><!--//interests-->
             
@@ -73,7 +74,7 @@
                 <div class="summary">
                     <p>Привет! Один раз я услышал хорошую вещь: "Найдите себе работу по душе, и вам не придется работать ни дня в своей жизни". Поэтому я решил найти то, что мне действительно нравится. Именно поэтому я тут, а вы - здесь!</p>
                     <p>Желаемая должность - Ruby/RoR разработчик. Полная занятость.</p>
-                    <p>Готов к коммандировкам и релокации хоть на край света.</p>
+                    <p>В приоритете компании с подготовленной экосистемой. Будет круто увидеть у вас свои пайплайны и среды тестирования. <strike>С блекджеком и куртизанками</strike></p>
                     <p>Имею неплохой бэкграунд в производственной сфере, поэтому прекрасно понимаю что такое грамотно отлаженные процессы. Уже многое знаю, а чего не знаю - найду или тактично спрошу у коллег. Умею работать в команде и хочу профессионально развиваться в этом океане IT.</p>
                     <p></p>
                 </div><!--//summary-->
@@ -81,18 +82,41 @@
             
             <section class="section experiences-section">
                 <h2 class="section-title"><i class="fa fa-briefcase"></i>Опыт работы</h2>
-                
+
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Ruby/RoR Developer</h3>
-                            <div class="time">2021 - по н.в.</div>
+                            <h3 class="job-title">Ruby/RoR developer</h3>
+                            <div class="time">2022 - н.в </div>
                         </div><!--//upper-row-->
-                        <div class="company">Возможно, именно ваша компания ;-)</div>
+                        <div class="company">ООО ДомКлик</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p></p>
-                        <p></p>
+                        <p>Работа в условиях "импортозамещения" гемов и жесткой политики безопасности.</p>
+                        <p>Создание новых эндпоинтов для интеграций со сторонними и внутренними сервисами.</p>
+                        <p>Ревью кода, разработка новых гемов, фич и багов</p>
+                        <p>Возможно, именно ваша страховка жизни или недвижимости хоть чуть-чуть, но проходит через мой код))</p>
+                        <p>А видели автоплатеж по страховке на ДомКлик? Не хочу хвастать, но и тут я приложил свою руку.</p>
+                        <p>Задача состояла в основном на интеграции с банковским сервисом (получение карт клиента, составление запроса, создание новых эндпоинтов для фронта, отправка запроса в другой банковский сервис, получение ответа) + все алерты, мониторинги и админки.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Ruby/RoR developer</h3>
+                            <div class="time">2021 - 2022</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Umbrellio</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Разработка нового функционала, проведение код ревью, покрытие кода модульными и интеграционными тестами.</p>
+                        <p>За время работы появилось два главных достижения:</p>
+                        <p>1. Создал свой генератор <mark>Rails::Generator::Base</mark> для создания новых моделек для синка евентов между проектами. После команды смотрит в ямлик, подтягивает атрибуты и на их основании генерит модельку + спеку.</p>
+                        <p>Таким образом было создано около 150 новых моделей + нивелировался человеческий фактор и копипаст на будущее расширение.</p>
+                        <p>2. Плотно работал с <mark>goip</mark>. Автоматизировал опрос балансов по симкартам в симбанке. Раньше все делалось ручками (через админку <mark>goip</mark> или ручками через телефон). Сейчас в фоне крутится джобка. Опрашивает симочки путем <mark>http</mark> запросов к админке goip, рейзит ошибки, парсит ответ, пишет в бд. В админке проекта есть кнопочка на чек симок. По клику выгружает последние актуальные данные по балансу и ответу оператора, пишет в табличку, отдает пользователю список симок с датой.</p>
+                        <p>В дальнейшем доработал функционал и добавил точечную проверку симок через отправку тестовой смс. Также <mark>http</mark> запрос, но уже на <mark>twilio</mark> или <mark>vonage</mark> (операторы), которые отправляют смс. Я ловлю это смс через шлюз и вебхуком шлю в слак пользователю в канал.</p>
+                        <p>В остальном занимался багофиксом, расширением текущих моделей проекта, модернизацией (по типу добавления <mark>utm</mark> меток в ссылки рассылок) и составлением запросов в БД.</p>
                     </div><!--//details-->
                 </div><!--//item-->
                 
@@ -102,7 +126,7 @@
                             <h3 class="job-title">Мастер на участках основного производства</h3>
                             <div class="time">2019 - 2020</div>
                         </div><!--//upper-row-->
-                        <div class="company">Свеза Санкт-Петербург, www.sveza.ru</div>
+                        <div class="company">Свеза Санкт-Петербург</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>Контроль производственного процесса в соответствии с ТИ, организация работы цеха, обеспечение выпуска качественной продукции в соответствии со сменным заданием, расстановка производственного персонала.</p>
@@ -116,7 +140,7 @@
                             <h3 class="job-title">Лидер проекта</h3>
                             <div class="time">2020 - 2020</div>
                         </div><!--//upper-row-->
-                        <div class="company">Свеза Санкт-Петербург, www.sveza.ru</div>
+                        <div class="company">Свеза Санкт-Петербург</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>Анализ и поиск первопричин возникновения брака. Выработка и внедрение мероприятий. Обучение сотрудников внедряемым инструментам.</p><br>
@@ -130,7 +154,7 @@
                             <h3 class="job-title">Специалист по производственной документации</h3>
                             <div class="time">2018 - 2019</div>
                         </div><!--//upper-row-->
-                        <div class="company">Свеза Санкт-Петербург, www.sveza.ru</div>
+                        <div class="company">Свеза Санкт-Петербург</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>Cистематизировал и автоматизировал отчеты выработки цехов. Более 4 независимых отчетов были консолидированы в автособираемый еженедельный отчёт руководителя. Сократил времязатраты на подготовку еженедельного отчета с 5-8 часов до одного часа.</p>
@@ -189,7 +213,31 @@
                             </div>                                      
                         </div><!--//level-bar-->                                 
                     </div><!--//item-->
-                    
+
+                    <div class="item">
+                        <h3 class="level-title">Swagger</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="40%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Active Admin</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="50%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Sentry</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="30%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
                     <div class="item">
                         <h3 class="level-title">HTML5 &amp; CSS</h3>
                         <div class="level-bar">
@@ -217,8 +265,9 @@
 
                 <div class="details">
                     <p>Могу нарисовать кнопочку или даже целую страничку. <mark>HTML/CSS</mark> не боюсь. Вот пример: <a href="https://ilyakokorev.github.io/neuromouse/">Клик!</a></p>
-                    <p>Могу настроить аутентификацию через <mark>devise</mark> и разрулить вопросы авторизации через <mark>pundit</mark>;</p>
-                    <p>Настрою отправку почты через <mark>SendGrid API</mark> и выведу почту в фон через <mark>resque</mark> и <mark>redis</mark>;</p>
+                    <p>Могу настроить аутентификацию через <mark>devise</mark> и разрулить вопросы авторизации через <mark>pundit</mark> или <mark>cancan</mark>;</p>
+                    <p>Настрою отправку почты через <mark>SendGrid API</mark> и выведу почту в фон через <mark>resque</mark> и <mark>redis</mark>, но если у вас <mark>sidekiq</mark>, то это тоже не доставит проблем;</p>
+                    <p>Упала ошибка в <mark>Sentry</mark>? Посмотрю в логи и найду откуда прилетело. Выведу нотификацию в ваш ТГ канал, чтобы не ловить алерты в богом забытой почте</p>
                     <p>Базовые знания написания тестов на <mark>rspec</mark>, <mark>capybara</mark>, <mark>factory_bot</mark>;</p>
                     <p>Напишу пару простых <mark>SQL</mark> запросов;</p>
                     <p>Проведу деплой на <mark>VPS</mark> или <mark>heroku</mark>. Настрою деплой через <mark>capistrano</mark>;</p>
