@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- Theme CSS -->  
+
+    <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 </head>
 
@@ -18,33 +18,40 @@
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
+                <style>
+                    .profile-container .profile {
+                        max-width: 100%;
+                        height: auto;
+                        display: block;
+                        object-fit: cover;
+                    }
+                </style>
                 <img class="profile" src="assets/images/my.png" width="180" height="200" />
                 <h1 class="name">Илья Кокорев</h1>
                 <h3 class="tagline">Ruby/RoR Developer</h3>
             </div><!--//profile-container-->
-            
+
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto: kockorev.ilya@gmail.com">kockorev.ilya@gmail.com</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/IlyaKokorev" target="_blank">github.com/IlyKokorev</a></li>
                     <li class="telegram"><i class="fa fa-paper-plane"></i><a href="https://t.me/Ilyakokorev" target="_blank">@iskokorev</a></li>
-                    <li class="skype"><i class="fa fa-skype"></i><a href="https://join.skype.com/invite/kFx6FkFV56F3" target="_blank">Илья Кокорев</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/IlyaKokorev" target="_blank">github.com/IlyKokorev</a></li>
                 </ul>
             </div><!--//contact-container-->
 
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Pet Projects</h2>
-                <ul class="list-unstyled interests-list">
-                    <li><a href="http://neverends.space">Neverends Space</a></li>
-                </ul>
-            </div><!--//interests-->
+<!--            <div class="interests-container container-block">-->
+<!--                <h2 class="container-block-title">Pet Projects</h2>-->
+<!--                <ul class="list-unstyled interests-list">-->
+<!--                    <li><a href="http://neverends.space">Neverends Space</a></li>-->
+<!--                </ul>-->
+<!--            </div>&lt;!&ndash;//interests&ndash;&gt;-->
 
             <div class="education-container container-block">
                 <h2 class="container-block-title">Образование</h2>
                 <div class="item">
                     <h4 class="degree">ПГУПС Императора Александра I</h4>
                     <h5 class="meta">Кафедра экономики транспорта</h5>
-                    <h5 class="meta">Производственный менеджмент</h5>
+                    <h5 class="meta">Управление производством</h5>
                     <div class="time">2014 - 2018</div>
                 </div><!--//item-->
                 <div class="item">
@@ -53,7 +60,7 @@
                     <div class="time">2020 - 2021</div>
                 </div><!--//item-->
             </div><!--//education-container-->
-            
+
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Языки</h2>
                 <ul class="list-unstyled interests-list">
@@ -61,7 +68,7 @@
                     <li><span class="lang-desc">(Активно учу)</span></li>
                 </ul>
             </div><!--//interests-->
-            
+
             <div class="interests-container container-block">
                 <h2 class="container-block-title">Хобби</h2>
                 <ul class="list-unstyled interests-list">
@@ -73,20 +80,19 @@
                 </ul>
             </div><!--//interests-->
         </div><!--//sidebar-wrapper-->
-        
+
         <div class="main-wrapper">
-            
+
             <section class="section summary-section">
                 <h2 class="section-title"><i class="fa fa-user"></i>О себе</h2>
                 <div class="summary">
                     <p>Привет! Один раз я услышал хорошую вещь: "Найдите себе работу по душе, и вам не придется работать ни дня в своей жизни". Поэтому я решил найти то, что мне действительно нравится. Именно поэтому я тут, а вы - здесь!</p>
                     <p>Желаемая должность - Ruby/RoR разработчик. Полная занятость.</p>
-                    <p>В приоритете компании с подготовленной экосистемой. Будет круто увидеть у вас свои пайплайны и среды тестирования. <strike>С блекджеком и куртизанками</strike></p>
-                    <p>Имею неплохой бэкграунд в производственной сфере, поэтому прекрасно понимаю что такое грамотно отлаженные процессы. Уже многое знаю, а чего не знаю - найду или тактично спрошу у коллег. Умею работать в команде и хочу профессионально развиваться в этом океане IT.</p>
+                    <p>Имею неплохой бэкграунд в производственной сфере, поэтому прекрасно понимаю что такое грамотно отлаженные процессы. Уже многое знаю, а чего не знаю - найду или тактично спрошу у коллег.</p>
                     <p></p>
                 </div><!--//summary-->
             </section><!--//section-->
-            
+
             <section class="section experiences-section">
                 <h2 class="section-title"><i class="fa fa-briefcase"></i>Опыт работы</h2>
 
@@ -94,17 +100,12 @@
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Ruby/RoR developer</h3>
-                            <div class="time">2022 - н.в </div>
+                            <div class="time">Май 2023 - н.в </div>
                         </div><!--//upper-row-->
-                        <div class="company">ООО ДомКлик</div>
+                        <div class="company">RocketHumans</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Работа в условиях "импортозамещения" гемов и жесткой политики безопасности.</p>
-                        <p>Создание новых эндпоинтов для интеграций со сторонними и внутренними сервисами.</p>
-                        <p>Ревью кода, разработка новых гемов, фич и багов</p>
-                        <p>Возможно, именно ваша страховка жизни или недвижимости хоть чуть-чуть, но проходит через мой код))</p>
-                        <p>А видели автоплатеж по страховке на ДомКлик? Не хочу хвастать, но и тут я приложил свою руку.</p>
-                        <p>Задача состояла в основном на интеграции с банковским сервисом (получение карт клиента, составление запроса, создание новых эндпоинтов для фронта, отправка запроса в другой банковский сервис, получение ответа) + все алерты, мониторинги и админки.</p>
+                        <p> Разработка и поддержание жизнеспособности платформы RocketWork </p>
                     </div><!--//details-->
                 </div><!--//item-->
 
@@ -112,21 +113,40 @@
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Ruby/RoR developer</h3>
-                            <div class="time">2021 - 2022</div>
+                            <div class="time">Апрель 2022 - Май 2023 </div>
+                        </div><!--//upper-row-->
+                        <div class="company">ООО ДомКлик</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p> Работа в условиях "импортозамещения" гемов и жесткой политики безопасности. </p>
+                        <p> Ревью кода, разработка новых гемов, фич и иногда багов)) </p>
+
+                        <p> Видели автоплатеж по страховке в ДомКлик? Могу рассказать как это устроено под капотом) </p>
+
+                        <p> - Создание и оптимизация API-интерфейсов. </p>
+                        <p> - Реализация жесткой валидации запросов с помощью JSON schema и их асинхронная обработка через Sidekiq. </p>
+                        <p> - Интеграция с RMQ и обработка ответов от консьюмеров. </p>
+                        <p> - Настройка мониторинга и алертов в Grafana, чтобы всегда быть в курсе происходящего. </p>
+                        <p> - Разработка панели статистики в ActiveAdmin для быстрого доступа к ключевым метрикам. </p>
+                        <p> - Логирование через ElasticSearch </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Ruby/RoR developer</h3>
+                            <div class="time">Май 2021 -  Март 2022 (11 месяцев)</div>
                         </div><!--//upper-row-->
                         <div class="company">Umbrellio</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Разработка нового функционала, проведение код ревью, покрытие кода модульными и интеграционными тестами.</p>
-                        <p>За время работы появилось два главных достижения:</p>
-                        <p>1. Создал свой генератор <mark>Rails::Generator::Base</mark> для создания новых моделек для синка евентов между проектами. После команды смотрит в ямлик, подтягивает атрибуты и на их основании генерит модельку + спеку.</p>
-                        <p>Таким образом было создано около 150 новых моделей + нивелировался человеческий фактор и копипаст на будущее расширение.</p>
-                        <p>2. Плотно работал с <mark>goip</mark>. Автоматизировал опрос балансов по симкартам в симбанке. Раньше все делалось ручками (через админку <mark>goip</mark> или ручками через телефон). Сейчас в фоне крутится джобка. Опрашивает симочки путем <mark>http</mark> запросов к админке goip, рейзит ошибки, парсит ответ, пишет в бд. В админке проекта есть кнопочка на чек симок. По клику выгружает последние актуальные данные по балансу и ответу оператора, пишет в табличку, отдает пользователю список симок с датой.</p>
-                        <p>В дальнейшем доработал функционал и добавил точечную проверку симок через отправку тестовой смс. Также <mark>http</mark> запрос, но уже на <mark>twilio</mark> или <mark>vonage</mark> (операторы), которые отправляют смс. Я ловлю это смс через шлюз и вебхуком шлю в слак пользователю в канал.</p>
-                        <p>В остальном занимался багофиксом, расширением текущих моделей проекта, модернизацией (по типу добавления <mark>utm</mark> меток в ссылки рассылок) и составлением запросов в БД.</p>
+                        <p> Автоматизация генерации кода: Создан собственный генератор (на основе Rails::Generator::Base), который автоматизировал процесс создания моделей для синхронизации событий между проектами. Генератор анализирует YAML-файл, извлекает из него атрибуты и автоматически создает соответствующую модель и спек. Это позволило быстро реализовать около 150 новых моделей, исключив риски, связанные с копипастом и человеческим фактором. </p>
+                        <p> Интеграция с GoIP: Разработал систему автоматического опроса балансов сим-карт, что полностью заменило ручное взаимодействие с админ-панелью GoIP. Реализовал фоновый процесс, который осуществляет HTTP-запросы, парсит ответы, обновляет базу данных и предоставляет пользователям актуальные данные по запросу. Расширил функционал, добавив возможность отправки тестовых SMS через Twilio и Vonage, с последующим логгированием через Slack. Вывел кнопку в админку на Vue.js </p>
+                        <p> Оптимизация и рефакторинг: Регулярное проведение код-ревью (а иногда и видео-ревью), покрытие кода модульными и интеграционными тестами. Улучшал текущие модели и добавлял новые функциональности, такие как внедрение UTM-меток в ссылки рассылок. </p>
                     </div><!--//details-->
                 </div><!--//item-->
-                
+
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
@@ -137,10 +157,10 @@
                     </div><!--//meta-->
                     <div class="details">
                         <p>Контроль производственного процесса в соответствии с ТИ, организация работы цеха, обеспечение выпуска качественной продукции в соответствии со сменным заданием, расстановка производственного персонала.</p>
-                        
+
                     </div><!--//details-->
                 </div><!--//item-->
-                
+
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
@@ -171,66 +191,42 @@
                         <p>В совершенстве овладел навыками коммуникации, смог найти общий язык почти с любым человеком - от рабочего до финансового директора.</p>
                     </div><!--//details-->
                 </div><!--//item-->
-                
+
             </section><!--//section-->
 
-            <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-archive"></i>Проекты</h2>
-                <div class="intro">
-                    <p></p>
-                </div><!--//intro-->
-                <div class="item">
-                    <span class="project-title"><a href="http://neverends.site/">BBQ</a></span> - <span class="project-tagline">В данном приложении вы можете создать событие или подписаться на чужое, оставить комментарий и посмотреть подписчиков на событие, а также загрузить фото и посмотреть на карте, где будет проходить событие.
-                </span>
+<!--            <section class="section projects-section">-->
+<!--                <h2 class="section-title"><i class="fa fa-archive"></i>Проекты</h2>-->
+<!--                <div class="intro">-->
+<!--                    <p></p>-->
+<!--                </div>&lt;!&ndash;//intro&ndash;&gt;-->
+<!--                <div class="item">-->
+<!--                    <span class="project-title"><a href="http://neverends.site/">BBQ</a></span> - <span class="project-tagline">В данном приложении вы можете создать событие или подписаться на чужое, оставить комментарий и посмотреть подписчиков на событие, а также загрузить фото и посмотреть на карте, где будет проходить событие.-->
+<!--                </span>-->
 
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://ilyaaskme.herokuapp.com/" target="_blank">AskMe</a></span> -
-                    <span class="project-tagline"> Приложение-клон известного сайта, в котором пользователи могут задавать вопросы и отвечать на них. </span>
-                </div><!--//item-->
-                <div class="item">
-                    <span class="project-title"><a href="https://employee-dir-kis.herokuapp.com/positions" target="_blank">Справочник организации</a></span> -
-                    <span class="project-tagline"> Справочник организации с использованием pundit, rolify и axlsx_rails. </span>
-                </div><!--//item-->
-            </section><!--//section-->
-            
+<!--                </div>&lt;!&ndash;//item&ndash;&gt;-->
+<!--                <div class="item">-->
+<!--                    <span class="project-title"><a href="https://ilyaaskme.herokuapp.com/" target="_blank">AskMe</a></span> - -->
+<!--                    <span class="project-tagline"> Приложение-клон известного сайта, в котором пользователи могут задавать вопросы и отвечать на них. </span>-->
+<!--                </div>&lt;!&ndash;//item&ndash;&gt;-->
+<!--                <div class="item">-->
+<!--                    <span class="project-title"><a href="https://employee-dir-kis.herokuapp.com/positions" target="_blank">Справочник организации</a></span> - -->
+<!--                    <span class="project-tagline"> Справочник организации с использованием pundit, rolify и axlsx_rails. </span>-->
+<!--                </div>&lt;!&ndash;//item&ndash;&gt;-->
+<!--            </section>&lt;!&ndash;//section&ndash;&gt;-->
+
             <section class="skills-section section">
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Навыки</h2>
-                <div class="skillset">        
+                <div class="skillset">
                     <div class="item">
                         <h3 class="level-title">Ruby</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="48%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Ruby on Rails</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="38%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">SQL</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="28%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Swagger</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="40%">
+                            <div class="level-bar-inner" data-level="60%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
 
                     <div class="item">
-                        <h3 class="level-title">Active Admin</h3>
+                        <h3 class="level-title">Ruby on Rails</h3>
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="50%">
                             </div>
@@ -238,9 +234,33 @@
                     </div><!--//item-->
 
                     <div class="item">
+                        <h3 class="level-title">SQL</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Swagger</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="90%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Active Admin</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
                         <h3 class="level-title">Sentry</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="30%">
+                            <div class="level-bar-inner" data-level="75%">
                             </div>
                         </div><!--//level-bar-->
                     </div><!--//item-->
@@ -248,56 +268,29 @@
                     <div class="item">
                         <h3 class="level-title">HTML5 &amp; CSS</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="35%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>
+                        </div><!--//level-bar-->
                     </div><!--//item-->
-                    
+
                     <div class="item">
                         <h3 class="level-title">Git</h3>
                         <div class="level-bar">
-                            <div class="level-bar-inner" data-level="35%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    
-                    <div class="item">
-                        <h3 class="level-title">Bash</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="30%">
-                            </div>                                      
-                        </div><!--//level-bar-->                                 
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>
+                        </div><!--//level-bar-->
                     </div><!--//item-->
                 </div>
-
-                <div class="details">
-                    <p>Могу нарисовать кнопочку или даже целую страничку. <mark>HTML/CSS</mark> не боюсь. Вот пример: <a href="https://ilyakokorev.github.io/neuromouse/">Клик!</a></p>
-                    <p>Могу настроить аутентификацию через <mark>devise</mark> и разрулить вопросы авторизации через <mark>pundit</mark> или <mark>cancan</mark>;</p>
-                    <p>Настрою отправку почты через <mark>SendGrid API</mark> и выведу почту в фон через <mark>resque</mark> и <mark>redis</mark>, но если у вас <mark>sidekiq</mark>, то это тоже не доставит проблем;</p>
-                    <p>Упала ошибка в <mark>Sentry</mark>? Посмотрю в логи и найду откуда прилетело. Выведу нотификацию в ваш ТГ канал, чтобы не ловить алерты в богом забытой почте</p>
-                    <p>Базовые знания написания тестов на <mark>rspec</mark>, <mark>capybara</mark>, <mark>factory_bot</mark>;</p>
-                    <p>Напишу пару простых <mark>SQL</mark> запросов;</p>
-                    <p>Проведу деплой на <mark>VPS</mark> или <mark>heroku</mark>. Настрою деплой через <mark>capistrano</mark>;</p>
-                    <p>И локализую через <mark>i18n</mark>;</p>
-                    <p>Закомичю и запушу, сделаю PR. <mark>Git</mark> люблю и уважаю</p>
-                </div><!--//details-->
             </section><!--//skills-section-->
-            
+
         </div><!--//main-body-->
     </div>
- 
-    <footer class="footer">
-        <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
+
+    <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-</html> 
+</html>
 
